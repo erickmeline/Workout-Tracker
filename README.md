@@ -25,12 +25,12 @@ node server.js
 
 ## Live Demo
 
-https://erickmeline.github.io/E-Commerce_backend/
+https://ericks-workout-tracker.herokuapp.com/
 
 -----------
 
 ## Screen shot
-![screen shot](./assets/images/screenshot.png)
+![screen shot](./public/images/screenshot.png)
 
 -----------
 
