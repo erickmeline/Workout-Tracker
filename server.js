@@ -8,7 +8,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
 
-mongoose.connect('mongodb+srv://m001-student:myPassword2020!@sandbox.u8xwb.mongodb.net/workout?retryWrites=true&w=majority' || 'mongodb://localhost/workout', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/workout', {
   useNewUrlParser: true
 });
 
